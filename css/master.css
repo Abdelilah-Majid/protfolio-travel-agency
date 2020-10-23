@@ -1,0 +1,147 @@
+/* ====================== */
+/*         main           */
+/* ====================== */
+/* header */
+main header {
+    background-image: url("../imgs/pexels-road-mobile-1280.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+main header div:first-child {
+    padding-top: 20vh;
+}
+main header div:first-child p {
+    font-size: 1.2rem;
+}
+/* header */
+/* section0 */
+
+#section-0 {
+    background-color: #f4f4f4;
+}
+#section-0 img {
+    width: 40px;
+}
+#section-0 #done-svg {
+    margin-bottom: 0;
+}
+#section-0 #info-svg {
+    width: 20px;
+}
+/* section0 */
+/* section1 */
+
+#latest-updates-div {
+    height: 30vh;
+    background-image: url("../imgs/pexels-stones-1336.jpg");
+    background-size: 100vmin 150%;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+}
+#latest-updates-div:last-child {
+    height: 30vh;
+    width: 100%;
+    background-image: url("../imgs/pexels-vacation-1336.jpg");
+    background-size: 100vmin 140%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#latest-updates-div h2 {
+    width: 55%;
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+}
+#latest-updates-div button {
+    position: absolute;
+    width: 30%;
+    bottom: 5%;
+    right: 5%;
+    background-color: rgba(0, 0, 0, 0);
+    border: white 3px solid;
+    padding: 0.7em;
+}
+/* section1 */
+/* section2 */
+#section-2 img {
+    object-fit: cover;
+}
+/* section2 */
+
+/* section3 */
+#section-3 img {
+    height: 50px;
+    width: 50px;
+}
+
+/* section3 */
+/* ====================== */
+/*         main           */
+/* ====================== */
+
+/* ====================== */
+/*       responsive       */
+/* ====================== */
+
+@media screen and (orientation: landscape) {
+    /* main */
+
+    /* main header {
+        background-image: url("../imgs/pexels-lake-1336.jpg");
+    } */
+    #latest-updates-div {
+        height: 300px;
+        width: 45%;
+    }
+    #latest-updates-div:last-child {
+        height: 300px;
+        width: 45%;
+    }
+
+    /* main */
+}
+@media screen and (orientation: portrait) {
+    main header {
+        margin-top: 70px;
+    }
+}
+@media screen and (min-width: 2030px) and (orientation: landscape) {
+    main header {
+        background-image: url("../imgs/pexels-lake-original.jpg");
+    }
+    #latest-updates-div {
+        background-image: url("../imgs/pexels-stons-original.jpg");
+    }
+    #latest-updates-div:last-child {
+        background-image: url("../imgs/pexels-vacation-original.jpg");
+    }
+}
+@media screen and (min-width: 1446px) and (max-width: 2030px) and (orientation: landscape) {
+    main header {
+        background-image: url("../imgs/pexels-lake-1920.jpg");
+    }
+    #latest-updates-div {
+        background-image: url("../imgs/pexels-stones-1920.jpg");
+    }
+    #latest-updates-div:last-child {
+        background-image: url("../imgs/pexels-vacation-1920.jpg");
+    }
+}
+@media screen and (min-width: 1px) and (max-width: 1446px) and (orientation: landscape) {
+    main header {
+        background-image: url("../imgs/pexels-lake-1336.jpg");
+    }
+    #latest-updates-div {
+        background-image: url("../imgs/pexels-stones-1336.jpg");
+    }
+    #latest-updates-div:last-child {
+        background-image: url("../imgs/pexels-vacation-1336.jpg");
+    }
+}
+
+/* ====================== */
+/*       responsive       */
+/* ====================== */

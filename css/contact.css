@@ -1,0 +1,54 @@
+/* ==================== */
+/*         main         */
+/* ==================== */
+
+main {
+    margin-top: 76px;
+}
+#main-main-header {
+    background-image: url("../imgs/pexels-karolina-grabowska-4491469.jpg");
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#header-div {
+    padding-top: 40vh;
+}
+#section-3 img {
+    height: 50px;
+    width: 50px;
+}
+#main-section-div-div-div {
+    width: 100%;
+}
+/* ==================== */
+/*         main         */
+/* ==================== */
+
+/* ==================== */
+/*      responsive      */
+/* ==================== */
+
+@media screen and (orientation: landscape) {
+    #header-div {
+        padding-top: 25vh;
+    }
+    main {
+        margin-top: 0;
+    }
+    #main-section-div-div-div {
+        width: fit-content;
+    }
+    #main-main-header {
+        background-image: url("../imgs/pexels-call-us.jpg");
+    }
+}
+@media screen and (orientation: portrait) {
+    .border-bottom-gray-2:last-child {
+        border: 0;
+    }
+}
+/* ==================== */
+/*      responsive      */
+/* ==================== */

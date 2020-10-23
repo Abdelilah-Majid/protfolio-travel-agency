@@ -1,0 +1,73 @@
+/* ====================== */
+/*       responsive       */
+/* ====================== */
+
+@media screen and (orientation: landscape) {
+    /* global */
+    .media-flex-row {
+        flex-direction: row;
+    }
+    .media-flex {
+        display: flex;
+    }
+    .media-justify-between {
+        justify-content: space-between;
+    }
+    .media-justify-evenly {
+        justify-content: space-evenly;
+    }
+    .fit-90pe {
+        width: 80%;
+    }
+    .fit-max-content {
+        width: max-content;
+    }
+    .media-fit-100pe {
+        width: 100%;
+    }
+    .margin-top-regular {
+        margin-top: 150px;
+    }
+    .margin-top-small {
+        margin-top: 75px;
+    }
+    .media-margin-top-regular {
+        margin-top: 150px;
+    }
+    .padding-top-regular {
+        padding-top: 150px;
+    }
+    .padding-bottom-regular {
+        padding-bottom: 150px;
+    }
+    .padding-top-regular {
+        padding-top: 75px;
+    }
+    .padding-bottom-regular {
+        padding-bottom: 75px;
+    }
+    .media-margin-top-none {
+        margin-top: 0;
+    }
+    .margin-left-5pe {
+        margin-left: 10%;
+    }
+    .media-margin-left-5pe {
+        margin-left: 5%;
+    }
+    .media-margin-left-10pe {
+        margin-left: 10%;
+    }
+    .media-margin-left-0pe {
+        margin-left: 0%;
+    }
+    /* global */
+}
+@media screen and (orientation: portrait) {
+    .media-mobile-flex-column {
+        flex-direction: column;
+    }
+}
+/* ====================== */
+/*       responsive       */
+/* ====================== */
