@@ -1,0 +1,57 @@
+/* ==================== */
+/*         main         */
+/* ==================== */
+
+main {
+    margin-top: 76px;
+}
+#main-main-header {
+    height: 90vh;
+    background-image: url("../imgs/pexels-question-1920.jpg");
+    background-size: auto 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#main-header-div {
+    padding-top: 20vh;
+}
+section div {
+    text-align: left;
+}
+section div div div div {
+    border: gray 2px solid;
+    box-shadow: -30px 20px 10px rgba(0, 0, 0, 0.3);
+}
+section div div div button {
+    box-shadow: -30px 20px 10px rgba(0, 0, 0, 0.3);
+    background-color: #7b2cbf;
+    border: gray 2px solid;
+    color: white;
+    width: 50%;
+    border-radius: 50px 0 0 0;
+    font-size: 2rem;
+}
+/* ==================== */
+/*         main         */
+/* ==================== */
+
+/* ==================== */
+/*      responsive      */
+/* ==================== */
+
+@media screen and (orientation: landscape) {
+    main {
+        margin-top: 0;
+    }
+    #main-main-header {
+        background-size: 100%;
+    }
+    section div div div button {
+        width: 10%;
+    }
+}
+
+/* ==================== */
+/*      responsive      */
+/* ==================== */

@@ -1,0 +1,138 @@
+/* ====================== */
+/*         global         */
+/* ====================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 30px;
+}
+.text-left {
+    text-align: left;
+}
+body {
+    zoom: 100%;
+}
+a {
+    text-decoration: none;
+}
+.flex {
+    display: flex;
+}
+.ul-style-none {
+    list-style: none;
+}
+.flex-column {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.align-center {
+    align-items: center;
+}
+.width-100vw {
+    width: 100vw;
+}
+.fit-100pe {
+    width: 100%;
+}
+.fit-90pe {
+    width: 90%;
+}
+.fit-content {
+    width: fit-content;
+}
+.fit-max-content {
+    width: max-content;
+}
+.margin-top-big {
+    margin-top: 200px;
+}
+.margin-top-regular {
+    margin-top: 100px;
+}
+.margin-top-small {
+    margin-top: 50px;
+}
+.margin-left-5pe {
+    margin-left: 5%;
+}
+.margin-left-10pe {
+    margin-left: 10%;
+}
+.padding-top-big {
+    padding-top: 200px;
+}
+.padding-top-regular {
+    padding-top: 100px;
+}
+.padding-bottom-regular {
+    padding-bottom: 100px;
+}
+.padding-top-small {
+    padding-top: 50px;
+}
+.padding-bottom-small {
+    padding-bottom: 50px;
+}
+.padding-bottom-tiny {
+    padding-bottom: 25px;
+}
+.font-white {
+    color: white;
+}
+.font-purple {
+    color: #7b2cbf;
+}
+nav a {
+    color: black;
+}
+a {
+    color: #7b2cbf;
+}
+a:hover,
+a:focus {
+    color: #8b79d9;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.current {
+    color: #7b2cbf;
+}
+.current:hover,
+.current:focus {
+    color: #7b2cbf;
+    font-weight: normal;
+    text-decoration: none;
+}
+.background-litle-dark {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+button {
+    cursor: pointer;
+}
+.hover-none:hover {
+    text-decoration: none;
+    color: white;
+}
+.border-bottom-gray-2 {
+    border-bottom: gray 2px solid;
+}
+.border-bottom-white-2 {
+    border-bottom: white 2px solid;
+}
+.text-shadow {
+    text-shadow: -15px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.box-shadow {
+    text-shadow: -30px 20px 10px rgba(0, 0, 0, 0.3);
+}
+/* ====================== */
+/*         global         */
+/* ====================== */
