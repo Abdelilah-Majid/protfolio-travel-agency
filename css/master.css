@@ -3,7 +3,7 @@
 /* ====================== */
 /* header */
 main header {
-    background-image: url("../imgs/pexels-road-mobile-1280.jpg");
+    background-image: url("../imgs/pexels-road-mobile-1920.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -132,7 +132,7 @@ main header div:first-child p {
 }
 @media screen and (min-width: 1px) and (max-width: 1446px) and (orientation: landscape) {
     main header {
-        background-image: url("../imgs/pexels-lake-1336.jpg");
+        background-image: url("../imgs/pexels-lake-1920.jpg");
     }
     #latest-updates-div {
         background-image: url("../imgs/pexels-stones-1336.jpg");
