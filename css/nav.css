@@ -2,46 +2,46 @@
 /*          nav           */
 /* ====================== */
 #nav-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 nav div div:first-child {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 nav li {
-    display: block;
-    padding: 0.8em 0;
+  display: block;
+  padding: 0.8em 0;
 }
 nav a {
-    padding: 0.8em 0;
+  padding: 0.8em 0;
 }
 #logo {
-    width: 1.5em;
-    margin-top: 3px;
-    margin-left: 5px;
+  width: 1.5em;
+  margin-top: 3px;
+  margin-left: 5px;
 }
 nav h3 a {
-    color: black;
+  color: black;
 }
 #nav-top-div {
-    margin-bottom: 3px;
+  margin-bottom: 3px;
 }
 #nav-menu-button {
-    width: 50px;
-    position: fixed;
-    right: 13px;
-    top: 18px;
+  width: 50px;
+  position: fixed;
+  right: 13px;
+  top: 18px;
 }
 header nav {
-    background-color: #f5f3f4;
+  background-color: #f5f3f4;
 }
 #nav-top-div a:hover,
 #nav-top-div a:focus {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 /* ====================== */
 /*          nav           */
@@ -52,30 +52,35 @@ header nav {
 /* ====================== */
 
 @media screen and (orientation: landscape) {
-    /* nav */
-    header nav {
-        background-color: white;
-    }
-    #nav-header {
-        position: static;
-    }
-    #nav-menu-button {
-        display: none;
-    }
-    #nav-menu-content li {
-        display: block;
-        margin-left: 60px;
-    }
-    #nav-menu-content {
-        margin-top: 8px;
-    }
-    #nav-menu-content {
-        font-size: 1rem;
-        width: 26em;
-    }
-    /* nav */
+  /* nav */
+  header nav {
+    background-color: white;
+  }
+  #nav-header {
+    position: static;
+  }
+  #nav-menu-button {
+    display: none;
+  }
+  #nav-menu-content li {
+    display: block;
+    margin-left: 60px;
+  }
+  #nav-menu-content {
+    margin-top: 8px;
+  }
+  #nav-menu-content {
+    font-size: 1rem;
+    width: 26em;
+  }
+  /* nav */
 }
-
+@media screen and (orientation: landscape) and (max-width: 800px) {
+  #nav-menu-content li {
+    display: block;
+    margin-left: 20px;
+  }
+}
 /* ====================== */
 /*       responsive       */
 /* ====================== */
